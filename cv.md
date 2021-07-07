@@ -18,3 +18,9 @@ My goal is start working in IT-sphere.
 4. Python (basic OOP, can use library math, pandas);
 5. JavaScript (can write a simple algorithm; planning to develop knowledge in this sphere)
 6. Basic Linux knowledge ( Install/Setup OS,  Install app,  Troubleshooting non-critical problems, basic console utils)
+
+---
+```javascript
+function multiply(a, b){
+  return a * b;
+```
