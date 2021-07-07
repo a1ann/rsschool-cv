@@ -24,3 +24,9 @@ My goal is start working in IT-sphere.
 function multiply(a, b){
   return a * b;
 ```
+
+---
+*My education :*  
+Pavel Sukhoi State Technical University of Gomel  
+2014-2019  
+Technological Faculty - Design and Manufacture of Farming Equipment.
