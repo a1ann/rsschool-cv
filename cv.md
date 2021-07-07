@@ -30,3 +30,8 @@ function multiply(a, b){
 Pavel Sukhoi State Technical University of Gomel  
 2014-2019  
 Technological Faculty - Design and Manufacture of Farming Equipment.
+
+---
+*Language skills:*  
+**English** - B1  
+**Japanese** - B1
