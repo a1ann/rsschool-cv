@@ -1,0 +1,70 @@
+.LeftBlock{
+    width:300px;
+    float:left;
+    background-color: #353945;
+    color : white;
+}
+
+.ContactBlock{
+    background-color: #353945;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+.EducationBlock{
+    background-color: #2C323E;
+    padding-top: 1px;
+    text-indent: 20px;
+    padding-bottom: 20px;
+}
+
+.LanguageBlock{
+    text-indent: 20px;
+}
+
+.LeftHeading{
+    background-color: #434753;
+    text-indent: 10px;
+    border-left : 10px solid #EFBC00;
+}
+
+.ContactValue{
+    line-height : 1px;
+    font-style :unset;
+}
+
+.ContactType{
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.LiMess{
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: -40px;
+    line-height : 40px;
+    vertical-align: 10px;
+}
+
+.SpanMess{
+    vertical-align: 10px;
+}
+
+
+
+
+.RightBlock{
+    width:auto;
+    height:800px;
+    overflow:auto;
+}
+
+.FooterBlock{
+    margin-bottom: auto;
+}
+
+
+
+body{
+    margin: auto; 
+}
