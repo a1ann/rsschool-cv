@@ -59,50 +59,63 @@
             </aside>
 
             <div class="RightBlock">
-                <section>
-                    <h1>Alan</h1>
-                    <h1>Babitski</h1>
-                    <h2>future developer</h2>
-                </section>
+                <div class="NameBlock">
+                    <section>
+                        <h1 class="NameHeading">Alan</h1>
+                        <h1 class="NameHeading">Babitski</h1>
+                        <h2 class="WorkHeading">Future Developer</h2>
+                    </section>
+                </div>
+
+                <div class="AboutBlock">
+                    <section>
+                        <h3 h3 class="CenterHeading">About me</h3>
+                        <p>My goal is start working in IT-sphere. I like watch anime, TV-shows. Learning in RS School.
+                        </p>
+                    </section>
+                </div>
+
+                <div class="SkillsBlock">
+                    <section>
+                        <h3 class="CenterHeading">Soft Skills</h3>
+                        <ul class="ListSkills">
+                            <li>Ability to work efficiently both individually and in a team;</li>
+                            <li>I love to learn new things;</li>
+                            <li>Highly organized;</li>
+                            <li>Time Management</li>
+                            <li>Adaptibility</li>
+                        </ul>
+                    </section>
+
+
+                    <section>
+                        <h3 class="CenterHeading">Hard Skills</h3>
+                        <ul class="ListSkills">
+                            <li>Basic theory of testing/API;</li>
+                            <li>SQL (can make SELECT request, can use JOINS);</li>
+                            <li>HTML/CSS (can create a simple web-page);</li>
+                            <li>Python (basic OOP, can use library math, pandas);</li>
+                            <li>JavaScript (can write a simple algorithm; planning to develop knowledge in this sphere)
+                            </li>
+                            <li>Basic Linux knowledge ( Install/Setup OS, Install app, Troubleshooting non-critical
+                                problems,
+                                basic console utils)</li>
+                        </ul>
+                    </section>
+
+                </div>
 
                 <section id="CenterSection">
-                    <h3 h3 class="CenterHeading">About me</h3>
-                    <p>My goal is start working in IT-sphere. I like watch anime, TV-shows.</p>
-                </section>
-
-                <section id="CenterSection">
-                    <h3 class="CenterHeading">Soft Skills</h3>
-                    <ul>
-                        <li>Ability to work efficiently both individually and in a team;</li>
-                        <li>I love to learn new things;</li>
-                        <li>Highly organized;</li>
-                    </ul>
-                </section>
-
-                <section id="CenterSection">
-                    <h3 class="CenterHeading">Hard Skills</h3>
-                    <ul>
-                        <li>Basic theory of testing/API;</li>
-                        <li>SQL (can make SELECT request, can use JOINS);</li>
-                        <li>HTML/CSS (can create a simple web-page);</li>
-                        <li>Python (basic OOP, can use library math, pandas);</li>
-                        <li>JavaScript (can write a simple algorithm; planning to develop knowledge in this sphere)</li>
-                        <li>Basic Linux knowledge ( Install/Setup OS, Install app, Troubleshooting non-critical
-                            problems,
-                            basic console utils)</li>
-                    </ul>
-                </section>
-
-                <section id="CenterSection">
-                    <details>
-                        <summary>Example my code</summary>
-                        <pre>
+                    <h3 class="CenterHeading">Example code</h3>
+                    <pre>
                             <code>
-                                function multiply(a, b){
-                                    return a * b;                          
+                                function getSheet(idSheet, numberPage) {
+                                    let ss = SpreadsheetApp.openById(idSheet);
+                                    let sheet = ss.getSheets()[numberPage];
+                                    return sheet;
+                                  }                       
                             </code>
                         </pre>
-                    </details>
                 </section>
 
             </div>
@@ -112,11 +125,11 @@
     <footer>
         <div class="FooterBlock">
             <nav>
-                <ul>
-                    <li><a href="https://github.com/a1ann">GitHub</a></li>
-                    <li>&copy; 2021</li>
-                    <li><a href="https://rs.school/js/"> <img src="images/rs_school_js.svg" width="50px"
-                                alt="RS School Logo"> </a> </li>
+                <ul class="FooterList">
+                    <li class="FooterList"> <a href="https://github.com/a1ann">GitHub</a></li>
+                    <li class="FooterList">&copy; 2021</li>
+                    <li class="FooterList"><a href="https://rs.school/js/"> <img src="images/rs_school_js.svg"
+                                width="50px" alt="RS School Logo"> </a> </li>
                 </ul>
             </nav>
         </div>
