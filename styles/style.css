@@ -120,14 +120,13 @@
     
 }
 
-
-
-
 body{
     max-width: 1100px;
     background-color: #F4F4F4;
     margin: auto; 
 }
-main{
-   
-}
+
+a {
+    color: #EBEEF7;
+    text-decoration: none;
+  }
